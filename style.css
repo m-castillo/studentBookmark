@@ -84,10 +84,10 @@ html, body {
 }
 
 #edmodo.hover, #google.hover, #ttm.hover, #istation.hover, #thinkCentral.hover, #discoveryEd.hover {
-	-webkit-filter: blur(2px);
+	-webkit-filter: blur(3px);
 	-webkit-transition: 0.5s;
 	opacity: 0.5;
-	background-color: hsla(226, 100%, 21%, 0.77);
+	background-color: hsla(0, 0%, 0%, 0.3);
 }
 
 p {
