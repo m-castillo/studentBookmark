@@ -1,0 +1,118 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+}
+
+/** {
+	outline: 1px solid red;
+}*/
+
+/* SETTING UP BOOKMARK DIVS 3X2 */
+
+.bookmark {
+	height: 50vh;
+	width: 33.3%;
+	float: left;
+	-webkit-transition: all 0.5s ease;
+	border: 0;
+}
+
+.info {
+	height: 20%;
+	width: 70%;
+	margin-top: 5%;
+	margin-left: 15%;
+}
+
+.login {
+	height: 20%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+/* LOGOS */
+
+.logo {
+	height: 30%;
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 25%;
+	background: url(images/edmodo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#google > .logo {
+	background: url(images/google.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+
+#ttm > .logo {
+	background: url(images/ttm.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#istation > .logo {
+	background: url(images/istation.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+
+#thinkCentral > .logo {
+	background: url(images/tc.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+
+#discoveryEd > .logo {
+	background: url(images/disEd.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+
+/* HOVER - BLUR */
+
+#edmodo:hover, #google:hover, #ttm:hover, #istation:hover, #thinkCentral:hover, #discoveryEd:hover {
+	border-color: white;
+}
+
+#edmodo.hover, #google.hover, #ttm.hover, #istation.hover, #thinkCentral.hover, #discoveryEd.hover {
+	-webkit-filter: blur(2px);
+	-webkit-transition: 0.5s;
+	opacity: 0.5;
+	background-color: hsla(226, 100%, 21%, 0.77);
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+.info > p {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
